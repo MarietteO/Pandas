@@ -1,0 +1,9 @@
+#Pandas documentation: https://pandas.pydata.org/docs/
+
+import pandas
+
+data = pandas.read_csv("weather_data.csv")
+print(data) #Will print data as table
+
+#To get single column:
+data["temp"]
